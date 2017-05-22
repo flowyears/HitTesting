@@ -15,6 +15,11 @@
 		3937FC851ECE9080009AD8E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3937FC831ECE9080009AD8E1 /* LaunchScreen.storyboard */; };
 		3937FC901ECE9080009AD8E1 /* HitTestingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937FC8F1ECE9080009AD8E1 /* HitTestingTests.m */; };
 		3937FC9B1ECE9080009AD8E1 /* HitTestingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937FC9A1ECE9080009AD8E1 /* HitTestingUITests.m */; };
+		3937FCAA1ECE9A7A009AD8E1 /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937FCA91ECE9A7A009AD8E1 /* CustomTabBarController.m */; };
+		3937FCAD1ECE9F59009AD8E1 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937FCAC1ECE9F59009AD8E1 /* HomeVC.m */; };
+		3937FCB31ECE9F8D009AD8E1 /* PostVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937FCB21ECE9F8D009AD8E1 /* PostVC.m */; };
+		3937FCB61ECE9FA0009AD8E1 /* DiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937FCB51ECE9FA0009AD8E1 /* DiscoverVC.m */; };
+		3937FCB91ECED583009AD8E1 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937FCB81ECED583009AD8E1 /* CustomTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		3937FC961ECE9080009AD8E1 /* HitTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3937FC9A1ECE9080009AD8E1 /* HitTestingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitTestingUITests.m; sourceTree = "<group>"; };
 		3937FC9C1ECE9080009AD8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3937FCA81ECE9A7A009AD8E1 /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
+		3937FCA91ECE9A7A009AD8E1 /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
+		3937FCAB1ECE9F59009AD8E1 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		3937FCAC1ECE9F59009AD8E1 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		3937FCB11ECE9F8D009AD8E1 /* PostVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostVC.h; sourceTree = "<group>"; };
+		3937FCB21ECE9F8D009AD8E1 /* PostVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostVC.m; sourceTree = "<group>"; };
+		3937FCB41ECE9FA0009AD8E1 /* DiscoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverVC.h; sourceTree = "<group>"; };
+		3937FCB51ECE9FA0009AD8E1 /* DiscoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverVC.m; sourceTree = "<group>"; };
+		3937FCB71ECED583009AD8E1 /* CustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
+		3937FCB81ECED583009AD8E1 /* CustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				3937FC791ECE9080009AD8E1 /* AppDelegate.m */,
 				3937FC7B1ECE9080009AD8E1 /* ViewController.h */,
 				3937FC7C1ECE9080009AD8E1 /* ViewController.m */,
+				3937FCA81ECE9A7A009AD8E1 /* CustomTabBarController.h */,
+				3937FCA91ECE9A7A009AD8E1 /* CustomTabBarController.m */,
+				3937FCB71ECED583009AD8E1 /* CustomTabBar.h */,
+				3937FCB81ECED583009AD8E1 /* CustomTabBar.m */,
+				3937FCAB1ECE9F59009AD8E1 /* HomeVC.h */,
+				3937FCAC1ECE9F59009AD8E1 /* HomeVC.m */,
+				3937FCB11ECE9F8D009AD8E1 /* PostVC.h */,
+				3937FCB21ECE9F8D009AD8E1 /* PostVC.m */,
+				3937FCB41ECE9FA0009AD8E1 /* DiscoverVC.h */,
+				3937FCB51ECE9FA0009AD8E1 /* DiscoverVC.m */,
 				3937FC7E1ECE9080009AD8E1 /* Main.storyboard */,
 				3937FC811ECE9080009AD8E1 /* Assets.xcassets */,
 				3937FC831ECE9080009AD8E1 /* LaunchScreen.storyboard */,
@@ -207,7 +232,7 @@
 				TargetAttributes = {
 					3937FC711ECE9080009AD8E1 = {
 						CreatedOnToolsVersion = 8.3;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					3937FC8A1ECE9080009AD8E1 = {
 						CreatedOnToolsVersion = 8.3;
@@ -273,8 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3937FCB91ECED583009AD8E1 /* CustomTabBar.m in Sources */,
+				3937FCB31ECE9F8D009AD8E1 /* PostVC.m in Sources */,
 				3937FC7D1ECE9080009AD8E1 /* ViewController.m in Sources */,
 				3937FC7A1ECE9080009AD8E1 /* AppDelegate.m in Sources */,
+				3937FCAA1ECE9A7A009AD8E1 /* CustomTabBarController.m in Sources */,
+				3937FCB61ECE9FA0009AD8E1 /* DiscoverVC.m in Sources */,
+				3937FCAD1ECE9F59009AD8E1 /* HomeVC.m in Sources */,
 				3937FC771ECE9080009AD8E1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,10 +454,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HitTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flowyears.HitTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -435,10 +467,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HitTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flowyears.HitTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
