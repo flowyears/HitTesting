@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 #import "CustomTabBarController.h"
+#import "HomeVC.h"
+#import "PostVC.h"
+#import "DiscoverVC.h"
 
 static NSString * const kCellIdentifier = @"cellIdentifier";
 
@@ -26,7 +29,7 @@ UITableViewDataSource>
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Hit-Testing";
-    [self.data addObjectsFromArray:@[@"UITabBar 自定义中间大按钮"]];
+    [self.data addObjectsFromArray:@[@"UITabBar 自定义中间大按钮",@"扩大点击区域",@"传递触摸事件给父视图"]];
     [self uiSetting];
 }
 
@@ -83,17 +86,20 @@ UITableViewDataSource>
             break;
         case 1:
         {
-            
+            HomeVC *homeVC = [[HomeVC alloc] init];
+            [self.navigationController pushViewController:homeVC animated:YES];
         }
             break;
         case 2:
         {
-            
+            PostVC *postVC = [[PostVC alloc] init];
+            [self.navigationController pushViewController:postVC animated:YES];
         }
             break;
-        case 4:
+        case 3:
         {
-            
+            DiscoverVC *discoverVC = [[DiscoverVC alloc] init];
+            [self.navigationController pushViewController:discoverVC animated:YES];
         }
             break;
         default:
